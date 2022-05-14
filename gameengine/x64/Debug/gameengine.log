@@ -1,0 +1,18 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Output 디렉터리가 슬래시로 끝나지 않습니다. Output 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
+  CCore.cpp
+  CKeyMgr.cpp
+  CMissile.cpp
+  CMonster.cpp
+  CObject.cpp
+  CPathMgr.cpp
+C:\Users\sna14\OneDrive\바탕 화면\복습\Win32복습\Win32GameEngine\gameengine\CPathMgr.cpp(18,36): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CPlayer.cpp
+  CRes.cpp
+  CScene.cpp
+  CSceneMgr.cpp
+  CScene_Start.cpp
+  CSound.cpp
+  CTexture.cpp
+  CtimerMgr.cpp
+  gameengine.cpp
+  gameengine.vcxproj -> C:\Users\sna14\OneDrive\바탕 화면\복습\Win32복습\Win32GameEngine\Output\bin_debug\gameengine.exe
