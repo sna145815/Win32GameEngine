@@ -16,6 +16,7 @@ public:
 	const wstring& GetName() { return m_strName; }
 
 	void update();
+	void finalupdate();
 	void render(HDC _dc);
 
 	virtual void Enter()=0;  //해당 Scene 에 진입시 호출

@@ -65,6 +65,12 @@
     <Filter Include="Engine\03. Manager\ResMgr">
       <UniqueIdentifier>{eaaed39d-80e7-4c14-8771-857dfd020c0d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\07.Component">
+      <UniqueIdentifier>{92fcb9a7-c428-4dfe-8d60-770426c02104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\08.Module">
+      <UniqueIdentifier>{00cd76e3-325f-445e-8e83-e687342a89e2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CCore.h">
@@ -131,6 +137,12 @@
     <ClInclude Include="CResMgr.h">
       <Filter>Engine\03. Manager\ResMgr</Filter>
     </ClInclude>
+    <ClInclude Include="CCollider.h">
+      <Filter>Engine\07.Component</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectGDI.h">
+      <Filter>Engine\08.Module</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CCore.cpp">
@@ -178,6 +190,12 @@
     </ClCompile>
     <ClCompile Include="CResMgr.cpp">
       <Filter>Engine\03. Manager\ResMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollider.cpp">
+      <Filter>Engine\07.Component</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectGDI.cpp">
+      <Filter>Engine\08.Module</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

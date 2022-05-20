@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CCollider.h" />
     <ClInclude Include="CCore.h" />
     <ClInclude Include="CKeyMgr.h" />
     <ClInclude Include="CMissile.h" />
@@ -167,10 +168,12 @@
     <ClInclude Include="gameengine.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="SelectGDI.h" />
     <ClInclude Include="struct.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CCollider.cpp" />
     <ClCompile Include="CCore.cpp" />
     <ClCompile Include="CKeyMgr.cpp" />
     <ClCompile Include="CMissile.cpp" />
@@ -187,6 +190,7 @@
     <ClCompile Include="CTexture.cpp" />
     <ClCompile Include="CtimerMgr.cpp" />
     <ClCompile Include="gameengine.cpp" />
+    <ClCompile Include="SelectGDI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="gameengine.rc" />

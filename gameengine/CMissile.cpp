@@ -7,7 +7,7 @@
 CMissile::CMissile()
 	:m_fDir(1)
 {
-
+	CreateCollider();
 }
 
 CMissile::~CMissile()
